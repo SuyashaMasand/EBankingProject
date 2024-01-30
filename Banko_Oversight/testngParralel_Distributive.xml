@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+  <test name="Test1">
+    <classes>
+      <class name="com.BankoOversite.OpenAccount.TestScript.OpenAccount_Smoke_BC_Test"/>
+      <class name="com.BankoOversight.CreditCustomer.Test.POM_CC_BASECLASS_Test"/>
+    </classes>
+      </test>
+      
+      <test name="Test2">
+		  <classes>
+			  
+      <class name="com.BankoOversight.DebitCard.TestScript.POM_DEBITCARD_BC_Test"/>
+      <class name="com.BankoOversite.OpenAccount.TestScript.OpenAccount_ETE_BC_Test"/>
+      <class name="com.BankoOversight.InternetBanking.TestScript.POM_IBLOGIN_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
